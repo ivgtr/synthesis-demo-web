@@ -1,0 +1,13 @@
+{
+  "text": "こんにちは。今日は良い天気ですね。",
+  "date": "2026-10-03",
+  "environment": "AMD Ryzen 7 3800X / Linux（WSL）/ Chromium 153 headless / CPU",
+  "rate": 1,
+  "rows": [
+    { "name": "Piper Plus / CSS10", "file": "piper-wasm.wav", "threads": 1, "steps": null, "firstSeconds": 0.21, "generationSeconds": 0.37, "audioSeconds": 2.45, "rtf": 0.15 },
+    { "name": "Kokoro / jf_alpha", "file": "kokoro-wasm.wav", "threads": 4, "steps": null, "firstSeconds": 3.21, "generationSeconds": 6.82, "audioSeconds": 4.13, "rtf": 1.65 },
+    { "name": "Supertonic 3 / F1・8回", "file": "supertonic-wasm-8.wav", "threads": 4, "steps": 8, "firstSeconds": 1.44, "generationSeconds": 3.01, "audioSeconds": 3.60, "rtf": 0.84 },
+    { "name": "Supertonic 3 / F1・4回", "file": "supertonic-wasm-4.wav", "threads": 4, "steps": 4, "firstSeconds": 0.65, "generationSeconds": 1.45, "audioSeconds": 3.60, "rtf": 0.40 },
+    { "name": "Irodori v4.1 Anime / 女性・8回", "file": "irodori-wasm-8.wav", "threads": 4, "steps": 8, "firstSeconds": 10.45, "generationSeconds": 25.89, "audioSeconds": 3.36, "rtf": 7.71 }
+  ]
+}

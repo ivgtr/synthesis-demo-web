@@ -1,0 +1,38 @@
+Voice model: ayousanz/piper-plus-css10-ja-6lang
+Revision: bd0d812d4db9182ecdb907ef074becf9e230c17f
+File: css10-ja-6lang-fp16.onnx
+Model card license: css10-public-domain
+Source: https://huggingface.co/ayousanz/piper-plus-css10-ja-6lang
+
+Voice model: ayousanz/piper-plus-tsukuyomi-chan
+Revision: 36b59c825c36bd386b8960cf3f604382f52f2a87
+File: tsukuyomi-chan-6lang-fp16.onnx
+Model card license: tsukuyomi-chan-corpus
+Source: https://huggingface.co/ayousanz/piper-plus-tsukuyomi-chan
+Voice data: つくよみちゃんコーパス（CV.夢前黎 / © Rei Yumesaki）
+Terms and credits: https://tyc.rei-yumesaki.net/material/corpus/#terms3
+The application's voice selection displays the corpus credit and output-use conditions.
+
+Voice model: onnx-community/Kokoro-82M-v1.0-ONNX
+Revision: 1939ad2a8e416c0acfeecc08a694d14ef25f2231
+File: onnx/model_quantized.onnx (q8)
+Model card license: Apache-2.0
+Source: https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX
+Japanese frontend: kokoro-js-jp 0.2.0, Open JTalk.
+
+Voice model: supertone-oss-archive/supertonic-3
+Revision: aafc6e32416a594460b32413efc49d7fe4ce6d46
+Model license: BigScience Open RAIL-M, including section 5 / Attachment A.
+License copy: licenses/supertonic-model.txt
+Source: https://huggingface.co/supertone-oss-archive/supertonic-3
+The original source repository is archived; development and support have ended.
+
+Voice model: phasefield-audio/Irodori-TTS-v4.1-Anime
+Original revision: 6b259f5baa5e236b3d14cbd1f8555ca87d92b530
+Derived from: Aratako/Irodori-TTS-v4.1-Small (MIT)
+Unofficial W4A16 ONNX release: v4.1-anime-6b259f5-webgpu-int4-r1
+Source: https://github.com/ochisamu/irodori-tts-v4-webgpu-models
+The demo omits reference-voice encoder graphs and uses caption conditioning.
+SilentCipher watermarking in the official Python runtime is not included.
+The source model forbids unauthorized voice impersonation and deceptive audio.
+Component MIT licenses are included for Irodori, ModernBERT-ja and Semantic-DACVAE.

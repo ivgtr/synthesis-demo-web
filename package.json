@@ -1,0 +1,28 @@
+{
+  "name": "onlypersonalities",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare:irodori": "node scripts/prepare-irodori.mjs",
+    "prepare:assets": "node scripts/prepare-assets.mjs",
+    "verify:pages": "node scripts/verify-pages.mjs",
+    "predev": "npm run prepare:assets",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run prepare:assets",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "kokoro-js-jp": "0.2.0",
+    "onnxruntime-web": "1.24.3",
+    "piper-plus": "0.7.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "vite": "8.3.2"
+  },
+  "overrides": {
+    "sharp": "0.35.4"
+  }
+}

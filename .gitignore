@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.playwright/
+.cache/
+public/engine/
+public/models/
+public/samples/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
